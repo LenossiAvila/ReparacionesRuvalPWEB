@@ -3,8 +3,89 @@
 <head>
     <meta charset="UTF-8" />
     <title>Inicio de Sesión</title>
+    <link rel="icon" href="Images/Logo.ico">
+    <link rel="stylesheet" href="Inicio Sesion.css">
+    <link rel="stylesheet" href="BOOTSTRAP/BOOTSTRAPCSS/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="Images/Logo.jpeg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+            RUVAL
+          </a>
+        </div>
+      </nav>
     
+    <div class="container" id="container">
+
+        <div class="form-container register-container">
+            <form action="#">
+                <h1>Register hire</h1>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button>Register</button>
+                <span>or use your account</span>
+                 <div class="social-container">
+                    <a href="#">
+                        <i class="fa-brands fa-square-facebook"></i>
+                    </a>
+
+                </div>
+
+             
+
+            </form>
+        </div>
+         <div class="form-container login-container">
+             <form action="#">
+                <h1>Login hire</h1>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <div class="contet">
+                     <div class="checkbox">
+                     <input type="checkbox" name="checkbox" id="checkbox">
+                     <label for="Recuerdame"></label>
+                     </div>
+                         <div class="pass-link"></div>
+                         <a href="#">Forgot password?</a>
+                         </div>
+
+                 </div>
+                 <button>Login</button>
+                 <span>or use your account</span>
+                 <div class="social-container">
+                    <a href="#">
+                        <i class="fa-brands fa-square-facebook"></i>
+                    </a>
+
+                 </div>
+             </form>
+
+         </div>
+
+
+         <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel-overlay-left">
+                    <h1 class="tittle">Hello <br> friends</h1>
+                    <p>If you have an account, login here and have fun</p>
+                    <button class="gost" id="login">Login</button>
+                    <i class="lni-lni-arrow"></i>
+                </div>
+                 <div class="overlay-panel-overlay-right">
+                    <h1 class="tittle">Start you <br> Journy now</h1>
+                    <p>if you dont have an account yet, join us and start.</p>
+                    <button class="ghost" id="register">Register</button>
+
+                 </div>
+             </div>
+         </div>
+      </div>
+
+
+    </div> 
 </body>
 </html>
